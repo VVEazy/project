@@ -3,6 +3,11 @@ html {
   line-height: 1.15;
   -webkit-text-size-adjust: 100%;
 }
+.container {
+  max-width: 1600px;
+  width: 100%;
+  margin: 0 auto;
+}
 *,
 *:before,
 *:after {
@@ -21,6 +26,9 @@ h1 {
   margin: 0.67em 0;
 }
 h2 {
+  margin: 0;
+}
+p {
   margin: 0;
 }
 hr {
