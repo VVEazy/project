@@ -47,6 +47,7 @@
   line-height: 32px;
 }
 .event__btn {
+  cursor: pointer;
   max-width: 92px;
   font-weight: 400;
   font-size: 16px;
