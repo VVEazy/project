@@ -53,9 +53,6 @@
 }
 .accardion__data {
 }
-.accaridon__data .active {
-  padding: 25px 0;
-}
 .accardion__data:nth-child(-n + 2) {
   border-top: 1px solid #cacaca;
 }
@@ -74,7 +71,14 @@
 }
 .accardion__title {
 }
+.accardion__block {
+  display: flex;
+}
 .accardion__list {
+  margin: 0 60px 0 0;
+}
+.accardion__data.active .accardion__list {
+  padding: 25px 0;
 }
 .accardion__item {
 }
